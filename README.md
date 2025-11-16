@@ -11,12 +11,30 @@ If python --version shows the version and where.exe python returns the actual pa
 python -m venv venv
 venv/Scripts/activate
 
-## Setting up the Theme
-pip install mkdocs-terminal
+## Setting up the Theme (Material)
+Activate your virtual environment, then install the Material theme:
 
-Add the following lines to mkdocs.yml:
+```powershell
+# from your project folder, with the venv activated
+pip install mkdocs-material
+```
+
+Add the following lines to `mkdocs.yml` (simple example):
+
+```yaml
 theme:
-  name: terminal
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.top
+```
+
+If you previously installed `mkdocs-terminal`, you can uninstall it with:
+
+```powershell
+pip uninstall mkdocs-terminal
+```
 
 ## Additional Themes
 - https://github.com/daizutabi/mkdocs-ivory

@@ -1,1 +1,5 @@
 site_name: My Docs
+site_url: https://www.zubaircloud.com
+theme:
+  name: material
+  
