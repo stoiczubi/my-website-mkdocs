@@ -1,9 +1,15 @@
+---
+tags:
+    - Autopilot
+    - OOBE
+---
+
 # Autopilot level 100 troubleshooting
 
 # My Documentation Website
 
 ## Setting up Python environment 🐍
-```
+```java
 winget install --id=Python.Python.3.14 -e
 python --version
 where.exe python
@@ -19,7 +25,7 @@ venv/Scripts/activate
 ## Setting up the Theme (Material)
 Activate your virtual environment, then install the Material theme:
 
-```powershell
+```java
 # from your project folder, with the venv activated
 pip install mkdocs-material
 ```
