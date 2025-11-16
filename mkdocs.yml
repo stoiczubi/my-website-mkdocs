@@ -1,5 +1,46 @@
-site_name: My Docs
+site_name: Zubair's Cloud Docs
 site_url: https://www.zubaircloud.com
+
+plugins:
+  - search
+  - social
+  - tags
+
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+
+
+
+  nav:
+    - Home: index.md
+    - Intune: 
+      - Autopilot 100 Troubleshooting: Intune/Autopilot 100 Troubleshooting.md
+      - Autopilot V2: Intune/Autopilot V2.md
+    - Automation:
+      - Azure Automation Runbooks: Automation/Azure Automation Runbooks.md
+      - Bulk Actions: Automation/Bulk Actions.md
+    - Graph & Powershell:
+      - Connecting to Graph & Intune: Graph & Powershell/Connecting to Graph & Intune.md
+      - Useful Powershell Commands: Graph & Powershell/Useful Powershell Commands.md
+
+
+    
+
+
+
   
